@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*Navbar*/
+
+  .navbar-brand a {
+      font-weight: 600;
+  }
+
+  /*Novidades*/
+
+  .container-novidades {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .container-novidades h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+  .container-sale {
+      padding-top: 35px;
+      padding-bottom: 20px;
+  }
+
+  /* Cards */
+  .container-produtos {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+.card-deck .card {
+    padding: 20px;
+    }
+}
+
+.card-deck .card {
+    padding: 20px;
+}
+
+.seemore {
+    padding-top: 30px;
+    text-align: center;
+}
+@media (min-width: 576px) {
+    .seemore {
+        text-align: left;
+        }
+    }
+  /* footer*/
+
+.pt-4, .py-4 {
+    background-color:  rgba(204, 194, 199, 0.9);
+}
+
+.icon{
+    width: 20px;
+    height: 25px;
+}
